@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 900px;
+    }
+.header {
+    background-color: rgb(205, 4, 4);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between
+}   
+.logo {
+    width: 120px;
+    height: 80px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.logo span {
+    font-family: Arial;
+    font-size: 12;
+    color: grey;
+}
+.navbar li {
+    background-color: rgb(55, 0, 255);
+    display: inline;
+    margin-left: 8px;
+    padding: 10px 40px 10px 10px;
+    color: white;
+}
+.navbar {
+    display:flex;
+    align-items: flex-end
+}
+main article{
+    background-color: rgb(97, 206, 242);
+    width: 600px;
+    padding: 25px;
+
+}
+aside{
+    background-color: rgb(57, 189, 110);
+    width: 300px;
+}
+.novedades{
+    background-color: blueviolet;
+    padding: 30px;
+}
+main article img {
+    width: 300px;
+    padding: 5px;
+    border: solid 1px black ;
+    margin: 0 auto;
+    display: block;
+}
+main {
+    display: flex;
+}
+.novedades ul {
+    padding-left: 45px;
+}
+.novedades h2{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: rgb(115, 176, 57);
+    padding: 25px;
+}
+main article p {
+    width: 300px;
+    margin: 0 auto;
+}
